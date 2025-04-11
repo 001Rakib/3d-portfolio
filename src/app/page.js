@@ -1,3 +1,9 @@
+import Hero from "@/sections/Hero";
+
 export default function Home() {
-  return <div className="text-5xl">3d Portfolio On the go...</div>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 }
