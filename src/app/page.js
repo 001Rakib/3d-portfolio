@@ -1,5 +1,6 @@
-import LogoSection from "@/components/LogoSection";
+import LogoSection from "@/sections/LogoSection";
 import Navbar from "@/components/Navbar";
+import FeaturedCards from "@/sections/FeaturedCards";
 import Hero from "@/sections/Hero";
 import ShowcaseSection from "@/sections/ShowcaseSection";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <ShowcaseSection />
       <LogoSection />
+      <FeaturedCards />
     </>
   );
 }
